@@ -65,18 +65,18 @@ int V4G1umaSCEcore_mainept(int type, int fs, int sfs, int dr, int tr, int trap, 
 	if (type == 1)
 		mainept = (afsrate + 0.1 * anfsrate * speed) * gfailround + (afsrate + 0.1 * afsrate * speed) * gtrendround - gfailround - gtrendround;
 	else if (type == 2)
-		mainept = (afsrate + 0.1 * anfsrate * stamina) * gfailround + (afsrate + 0.1 * afsrate * speed) * gtrendround - gfailround - gtrendround;
+		mainept = (afsrate + 0.1 * anfsrate * stamina) * gfailround + (afsrate + 0.1 * afsrate * stamina) * gtrendround - gfailround - gtrendround;
 
 	else if (type == 3)
-		mainept = (afsrate + 0.1 * anfsrate * power) * gfailround + (afsrate + 0.1 * afsrate * speed) * gtrendround - gfailround - gtrendround;
+		mainept = (afsrate + 0.1 * anfsrate * power) * gfailround + (afsrate + 0.1 * afsrate * power) * gtrendround - gfailround - gtrendround;
 
 
 	else if (type == 4)
-		mainept = (afsrate + 0.1 * anfsrate * willp) * gfailround + (afsrate + 0.1 * afsrate * speed) * gtrendround - gfailround - gtrendround;
+		mainept = (afsrate + 0.1 * anfsrate * willp) * gfailround + (afsrate + 0.1 * afsrate * willp) * gtrendround - gfailround - gtrendround;
 
 
 	else if (type == 5)
-		mainept = (afsrate + 0.1 * anfsrate * wit) * gfailround + (afsrate + 0.1 * afsrate * speed) * gtrendround - gfailround - gtrendround;
+		mainept = (afsrate + 0.1 * anfsrate * wit) * gfailround + (afsrate + 0.1 * afsrate * wit) * gtrendround - gfailround - gtrendround;
 
 
 	//¼ÆËãÆÚ´ıp
